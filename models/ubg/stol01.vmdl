@@ -1,4 +1,4 @@
-<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc39:version{1ceecb0d-4093-4729-ab18-b76886c64cde} -->
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc41:version{12fc9d44-453a-4ae4-b4d9-7e2ac0bbd4e0} -->
 {
 	rootNode = 
 	{
@@ -26,6 +26,50 @@
 							spawn_motion_disabled = false
 						}
 					},
+					{
+						_class = "GenericGameData"
+						game_class = "ao_proxy_capsule"
+						game_keys = 
+						{
+							bonename = null
+							radius = 1.26443
+							point0 = [ 12.7105, 9.94441, 5.68459 ]
+							point1 = [ 14.9279, 9.89635, -21.0484 ]
+						}
+					},
+					{
+						_class = "GenericGameData"
+						game_class = "ao_proxy_capsule"
+						game_keys = 
+						{
+							bonename = null
+							radius = 1.26443
+							point0 = [ 12.7105, -10.5205, 5.68459 ]
+							point1 = [ 14.9279, -10.5686, -21.0484 ]
+						}
+					},
+					{
+						_class = "GenericGameData"
+						game_class = "ao_proxy_capsule"
+						game_keys = 
+						{
+							bonename = null
+							radius = 1.26443
+							point0 = [ -6.94211, 9.94441, -2.07262 ]
+							point1 = [ -8.71779, 9.89635, -20.5514 ]
+						}
+					},
+					{
+						_class = "GenericGameData"
+						game_class = "ao_proxy_capsule"
+						game_keys = 
+						{
+							bonename = null
+							radius = 1.26443
+							point0 = [ -6.94211, -8.94605, -2.07262 ]
+							point1 = [ -8.71779, -8.99411, -20.5514 ]
+						}
+					},
 				]
 			},
 			{
@@ -35,10 +79,13 @@
 					{
 						_class = "PhysicsBodyMarkup"
 						target_body = ""
+						tag = ""
 						mass_override = 5.0
 						inertia_scale = 1.0
 						linear_damping = 0.0
 						angular_damping = 0.0
+						linear_drag = 1.0
+						angular_drag = 1.0
 						use_mass_center_override = false
 						mass_center_override = [ 0.0, 0.0, 0.0 ]
 					},
@@ -66,6 +113,7 @@
 						small_element_threshold = 0.0
 						thin_element_threshold = 0.0
 						optimization_algorithm = "QEM"
+						disable_region_svm = false
 						import_filter = 
 						{
 							exclude_by_default = true
@@ -93,6 +141,7 @@
 						small_element_threshold = 0.0
 						thin_element_threshold = 0.0
 						optimization_algorithm = "QEM"
+						disable_region_svm = false
 						import_filter = 
 						{
 							exclude_by_default = true
@@ -120,6 +169,7 @@
 						small_element_threshold = 0.0
 						thin_element_threshold = 0.0
 						optimization_algorithm = "QEM"
+						disable_region_svm = false
 						import_filter = 
 						{
 							exclude_by_default = true
@@ -147,6 +197,7 @@
 						small_element_threshold = 0.0
 						thin_element_threshold = 0.0
 						optimization_algorithm = "QEM"
+						disable_region_svm = false
 						import_filter = 
 						{
 							exclude_by_default = true
@@ -174,6 +225,7 @@
 						small_element_threshold = 0.0
 						thin_element_threshold = 0.0
 						optimization_algorithm = "QEM"
+						disable_region_svm = false
 						import_filter = 
 						{
 							exclude_by_default = true
@@ -201,6 +253,7 @@
 						small_element_threshold = 0.0
 						thin_element_threshold = 0.0
 						optimization_algorithm = "QEM"
+						disable_region_svm = false
 						import_filter = 
 						{
 							exclude_by_default = true
@@ -228,6 +281,7 @@
 						small_element_threshold = 0.0
 						thin_element_threshold = 0.0
 						optimization_algorithm = "QEM"
+						disable_region_svm = false
 						import_filter = 
 						{
 							exclude_by_default = true
@@ -255,6 +309,7 @@
 						small_element_threshold = 0.0
 						thin_element_threshold = 0.0
 						optimization_algorithm = "QEM"
+						disable_region_svm = false
 						import_filter = 
 						{
 							exclude_by_default = true
@@ -282,6 +337,7 @@
 						small_element_threshold = 0.0
 						thin_element_threshold = 0.0
 						optimization_algorithm = "QEM"
+						disable_region_svm = false
 						import_filter = 
 						{
 							exclude_by_default = true
@@ -293,6 +349,7 @@
 					},
 				]
 				leave_body_collision_unmodified = false
+				body_order = "default"
 			},
 			{
 				_class = "RenderMeshList"
@@ -314,7 +371,6 @@
 		]
 		model_archetype = ""
 		primary_associated_entity = ""
-		anim_graph_name = ""
 		document_sub_type = "ModelDocSubType_None"
 	}
 }

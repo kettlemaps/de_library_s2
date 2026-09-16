@@ -1,4 +1,4 @@
-<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc39:version{1ceecb0d-4093-4729-ab18-b76886c64cde} -->
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc41:version{12fc9d44-453a-4ae4-b4d9-7e2ac0bbd4e0} -->
 {
 	rootNode = 
 	{
@@ -16,6 +16,7 @@
 						placement_attach = ""
 						sound_event_on_spawn = ""
 						spawn_entity = "prop_physics"
+						enable_collision_with_parent = false
 						ragdoll_applies_bind_pose_root = false
 						collision_group = "default"
 						offset = [ 0.0, 0.0, 0.0 ]
@@ -31,6 +32,8 @@
 						render_color_mode = "inherit_owner"
 						material_group_mode = "inherit_owner_name"
 						physics_joint_modification_type = "none"
+						specific_physics_body_to_replace = ""
+						massoverride = -1.0
 						model = "models/ubg/gibs/bord01a_gib01.vmdl"
 						force_motion_disabled = false
 						health_override = 0
@@ -42,6 +45,7 @@
 						placement_attach = ""
 						sound_event_on_spawn = ""
 						spawn_entity = "prop_physics"
+						enable_collision_with_parent = false
 						ragdoll_applies_bind_pose_root = false
 						collision_group = "default"
 						offset = [ 0.0, 0.0, 0.0 ]
@@ -57,6 +61,8 @@
 						render_color_mode = "inherit_owner"
 						material_group_mode = "inherit_owner_name"
 						physics_joint_modification_type = "none"
+						specific_physics_body_to_replace = ""
+						massoverride = -1.0
 						model = "models/ubg/gibs/bord01a_gib02.vmdl"
 						force_motion_disabled = false
 						health_override = 0
@@ -68,6 +74,7 @@
 						placement_attach = ""
 						sound_event_on_spawn = ""
 						spawn_entity = "prop_physics"
+						enable_collision_with_parent = false
 						ragdoll_applies_bind_pose_root = false
 						collision_group = "default"
 						offset = [ 0.0, 0.0, 0.0 ]
@@ -83,6 +90,8 @@
 						render_color_mode = "inherit_owner"
 						material_group_mode = "inherit_owner_name"
 						physics_joint_modification_type = "none"
+						specific_physics_body_to_replace = ""
+						massoverride = -1.0
 						model = "models/ubg/gibs/bord01a_gib03.vmdl"
 						force_motion_disabled = false
 						health_override = 50
@@ -94,6 +103,7 @@
 						placement_attach = ""
 						sound_event_on_spawn = ""
 						spawn_entity = "prop_physics"
+						enable_collision_with_parent = false
 						ragdoll_applies_bind_pose_root = false
 						collision_group = "default"
 						offset = [ 0.0, 0.0, 0.0 ]
@@ -109,6 +119,8 @@
 						render_color_mode = "inherit_owner"
 						material_group_mode = "inherit_owner_name"
 						physics_joint_modification_type = "none"
+						specific_physics_body_to_replace = ""
+						massoverride = -1.0
 						model = "models/ubg/gibs/bord01a_gib04.vmdl"
 						force_motion_disabled = false
 						health_override = 0
@@ -120,6 +132,7 @@
 						placement_attach = ""
 						sound_event_on_spawn = ""
 						spawn_entity = "prop_physics"
+						enable_collision_with_parent = false
 						ragdoll_applies_bind_pose_root = false
 						collision_group = "default"
 						offset = [ 0.0, 0.0, 0.0 ]
@@ -135,6 +148,8 @@
 						render_color_mode = "inherit_owner"
 						material_group_mode = "inherit_owner_name"
 						physics_joint_modification_type = "none"
+						specific_physics_body_to_replace = ""
+						massoverride = -1.0
 						model = "models/ubg/gibs/bord01a_gib05.vmdl"
 						force_motion_disabled = false
 						health_override = 50
@@ -146,6 +161,7 @@
 						placement_attach = ""
 						sound_event_on_spawn = ""
 						spawn_entity = "prop_physics"
+						enable_collision_with_parent = false
 						ragdoll_applies_bind_pose_root = false
 						collision_group = "default"
 						offset = [ 0.0, 0.0, 0.0 ]
@@ -161,6 +177,8 @@
 						render_color_mode = "inherit_owner"
 						material_group_mode = "inherit_owner_name"
 						physics_joint_modification_type = "none"
+						specific_physics_body_to_replace = ""
+						massoverride = -1.0
 						model = "models/ubg/gibs/bord01a_gib06.vmdl"
 						force_motion_disabled = false
 						health_override = 0
@@ -201,6 +219,50 @@
 							burst_randomize = 10.0
 						}
 					},
+					{
+						_class = "GenericGameData"
+						game_class = "ao_proxy_capsule"
+						game_keys = 
+						{
+							bonename = null
+							radius = 2.0008
+							point0 = [ -32.2481, 16.5077, 10.5095 ]
+							point1 = [ -32.2476, 16.5767, -19.2459 ]
+						}
+					},
+					{
+						_class = "GenericGameData"
+						game_class = "ao_proxy_capsule"
+						game_keys = 
+						{
+							bonename = null
+							radius = 2.0008
+							point0 = [ -32.2481, -16.1597, 10.5095 ]
+							point1 = [ -32.2476, -16.0907, -19.2459 ]
+						}
+					},
+					{
+						_class = "GenericGameData"
+						game_class = "ao_proxy_capsule"
+						game_keys = 
+						{
+							bonename = null
+							radius = 2.0008
+							point0 = [ 33.084, -16.1597, 10.5095 ]
+							point1 = [ 33.0845, -16.0907, -19.2459 ]
+						}
+					},
+					{
+						_class = "GenericGameData"
+						game_class = "ao_proxy_capsule"
+						game_keys = 
+						{
+							bonename = null
+							radius = 2.0008
+							point0 = [ 33.197, 16.5077, 10.5095 ]
+							point1 = [ 33.1975, 16.5767, -19.2459 ]
+						}
+					},
 				]
 			},
 			{
@@ -210,10 +272,13 @@
 					{
 						_class = "PhysicsBodyMarkup"
 						target_body = ""
+						tag = ""
 						mass_override = 0.5
 						inertia_scale = 5.0
 						linear_damping = 1.0
 						angular_damping = 0.0
+						linear_drag = 1.0
+						angular_drag = 1.0
 						use_mass_center_override = false
 						mass_center_override = [ 0.0, 0.0, 0.0 ]
 					},
@@ -241,6 +306,7 @@
 						small_element_threshold = 0.0
 						thin_element_threshold = 0.0
 						optimization_algorithm = "QEM"
+						disable_region_svm = false
 						import_filter = 
 						{
 							exclude_by_default = true
@@ -268,6 +334,7 @@
 						small_element_threshold = 0.0
 						thin_element_threshold = 0.0
 						optimization_algorithm = "QEM"
+						disable_region_svm = false
 						import_filter = 
 						{
 							exclude_by_default = true
@@ -295,6 +362,7 @@
 						small_element_threshold = 0.0
 						thin_element_threshold = 0.0
 						optimization_algorithm = "QEM"
+						disable_region_svm = false
 						import_filter = 
 						{
 							exclude_by_default = true
@@ -322,6 +390,7 @@
 						small_element_threshold = 0.0
 						thin_element_threshold = 0.0
 						optimization_algorithm = "QEM"
+						disable_region_svm = false
 						import_filter = 
 						{
 							exclude_by_default = true
@@ -349,6 +418,7 @@
 						small_element_threshold = 0.0
 						thin_element_threshold = 0.0
 						optimization_algorithm = "QEM"
+						disable_region_svm = false
 						import_filter = 
 						{
 							exclude_by_default = true
@@ -360,6 +430,7 @@
 					},
 				]
 				leave_body_collision_unmodified = false
+				body_order = "default"
 			},
 			{
 				_class = "RenderMeshList"
@@ -381,7 +452,6 @@
 		]
 		model_archetype = ""
 		primary_associated_entity = ""
-		anim_graph_name = ""
 		document_sub_type = "ModelDocSubType_None"
 	}
 }
